@@ -4,11 +4,7 @@
   "description": "Datt",
   "main": "index.js",
   "scripts": {
-    "coverage": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- --recursive --reporter=dot",
-    "test-node": "gulp test-node",
-    "test-browser": "gulp test-karma",
-    "test": "gulp test-node && gulp test-browser",
-    "build": "gulp build"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "contributors": [
     {
@@ -36,44 +32,14 @@
       "email": "georgevaccaro@powerteamcorp.com"
     },
     {
-      "name": "Chris Robinson",
-      "email": "hello@chrisrobinson.me"
-    },
-    {
       "name": "Mike Houston",
       "email": "mike@kothar.net"
     },
     {
       "name": "Darren Mills",
       "email": "darrenrmills@gmail.com"
-    },
-    {
-      "name": "Deepak Rao",
-      "email": "deepakraous@gmail.com"
     }
   ],
   "author": "Ryan X. Charles <ryanxcharles@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "fullnode": "^0.10.0"
-  },
-  "devDependencies": {
-    "browserify": "^10.1.3",
-    "chai": "~2.2.0",
-    "envify": "^3.4.0",
-    "es6ify": "^1.6.0",
-    "express": "^4.12.4",
-    "glob": "^5.0.6",
-    "groc": "~0.8.0",
-    "gulp": "^3.9.0",
-    "gulp-karma": "0.0.4",
-    "gulp-mocha": "^2.1.2",
-    "istanbul-harmony": "^0.3.12",
-    "karma": "^0.12.32",
-    "karma-chrome-launcher": "^0.1.7",
-    "karma-firefox-launcher": "^0.1.4",
-    "karma-mocha": "^0.1.10",
-    "mocha": "~2.2.4",
-    "uglifyify": "~3.0.1"
-  }
+  "license": "MIT"
 }
